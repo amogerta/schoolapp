@@ -450,7 +450,7 @@ footer.footer {
 @media screen and (max-width: 576px) {
 #main-text-test {
   color: white;
-  font-size: 300%;
+  font-size: 100%;
   font-weight: 600%;
   z-index: 99;
   position: absolute;
@@ -460,7 +460,7 @@ footer.footer {
 
 #sub-text-test1 {
   color: white;
-  font-size: 300%;
+  font-size: 100%;
   font-weight: 600%;
   z-index: 99;
   position: absolute;
@@ -470,7 +470,7 @@ footer.footer {
 
 #sub-text-test2 {
   color: white;
-  font-size: 300%;
+  font-size: 100%;
   font-weight: 600%;
   z-index: 99;
   position: absolute;
