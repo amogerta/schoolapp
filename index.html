@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="간단한 랜딩 페이지" />
+    <meta name="author" content="" />
+    <title>Landing Page - Customized</title>
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+
+    <!-- Bootstrap icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Google Fonts: Noto Sans KR -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="styles.css" rel="stylesheet" />
+
+    <link href="script.js" rel="javascript" />
+
+    <!-- Override: Global font & custom boxes -->
+    <style>
+      /* 전역 폰트 교체 */
+      html, body {
+        font-family: 'Noto Sans KR', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif !important;
+      }
+      /* 큰 사각형 도형용 스타일 */
+      .big-box {
+        height: 320px;
+        background: #e9ecef;
+        border: 2px dashed #adb5bd;
+        border-radius: 0.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.125rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">우리가 만들 웹이름</a>
+        <a class="btn btn-primary" href="#signup">로그인</a>
+      </div>
+    </nav> -->
+
+    <!-- Masthead (헤더) -->
+    <header class="masthead">
+      <p id="main-text-test">자랑스런 한꿈</p>
+      <p id="sub-text-test1">아름다운 품격</p>
+      <p id="sub-text-test2">가치로운 진리</p>
+    </header>
+
+    <!-- Icons Grid (3열 아이콘 - 텍스트 플레이스홀더) -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div id="card1" class="col-lg-4">
+            <div class="hovering-overlay"></div>
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex"><i class="bi-window m-auto text-primary"></i></div>
+              <h3>수행정보</h3>
+              <p class="lead mb-0">이곳에 있는 수행정보는 마감임박</p>
+            </div>
+          </div>
+          <div id="card2" class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
+              <h3>특별실 예약</h3>
+              <p class="lead mb-0">커서를 가져다대면 인터페이스 커지게 </p>
+            </div>
+          </div>
+          <div id="card3" class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+              <h3>학교 소식</h3>
+              <p class="lead mb-0">이곳에 있는 학교정보는 가장 최신정보</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+<!-- <section class="search-section"> -->
+  <div class="container">
+    <form class="search-panel">
+      <!-- 검색 인풋/버튼 -->
+    </form>
+  </div>
+</section>
+
+    <!-- Footer는 사용자 요청에 따라 제거됨 -->
+
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS -->
+    <!-- SB Forms JS (CTA 폼용) -->
+    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+     <script>
+      document.querySelectorAll("#card1").forEach(el => {
+        el.addEventListener("click", ()=>{location.href="https://script.google.com/a/macros/saerom.hs.kr/s/AKfycbys6kwg3bZ_MnW7hDUNEsptEizYeZ3FB-_IV5MXGaXNjfBf1XuBl4jYpho1waZg6n8/exec"})
+      });
+     </script>
+
+      <script>
+      document.querySelectorAll("#card2").forEach(el => {
+        el.addEventListener("click", ()=>{location.href="https://forms.gle/YT5gfsD77Q5tHBjg6"})
+      });
+     </script>
+
+       <script>
+      document.querySelectorAll("#card3").forEach(el => {
+        el.addEventListener("click", ()=>{location.href="https://board-f356a.web.app/"})
+      });
+     </script>
+  </body>
+</html>
+
+
+
