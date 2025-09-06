@@ -447,32 +447,32 @@ footer.footer {
 
 #main-text-test {
   color: white;
-  font-size: 10rem;
+  font-size: 10%;
   font-weight: 900;
   z-index: 99;
   position: absolute;
-  top: 10rem;
-  left: 10rem;
+  top: 10%;
+  left: 10%;
 }
 
 #sub-text-test1 {
   color: white;
-  font-size: 10rem;
+  font-size: 10%;
   font-weight: 900;
   z-index: 99;
   position: absolute;
-  top: 21rem;
-  left: 10rem;
+  top: 21%;
+  left: 10%;
 } 
 
 #sub-text-test2 {
   color: white;
-  font-size: 10rem;
+  font-size: 10%;
   font-weight: 900;
   z-index: 99;
   position: absolute;
-  top: 32rem;
-  left: 10rem;
+  top: 32%;
+  left: 10%;
 } 
 
 .col-lg-4 h3 {
