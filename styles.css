@@ -447,7 +447,37 @@ footer.footer {
   margin-left: auto;
 }
 */
+@media screen and (max-width: 768px) {
+#main-text-test {
+  color: white;
+  font-size: 300%;
+  font-weight: 900;
+  z-index: 99;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
 
+#sub-text-test1 {
+  color: white;
+  font-size: 300%;
+  font-weight: 900;
+  z-index: 99;
+  position: absolute;
+  top: 21%;
+  left: 10%;
+} 
+
+#sub-text-test2 {
+  color: white;
+  font-size: 300%;
+  font-weight: 900;
+  z-index: 99;
+  position: absolute;
+  top: 32%;
+  left: 10%;
+} 
+}
 
 #main-text-test {
   color: white;
