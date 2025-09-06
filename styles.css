@@ -157,9 +157,12 @@ header.masthead p {
 @media (min-width: 768px) {
   header.masthead {
     padding: 0 !important;
-    min-height: 100vh !important;
+    min-height: 50vh !important;
   }
 }
+
+
+
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
   }
@@ -248,6 +251,7 @@ header.masthead input:invalid {
   box-shadow: none !important;
   outline: none !important;
 }
+
 
 /* =========================================================
    3) 3열 아이콘 영역: 텍스트 플레이스홀더 주입
