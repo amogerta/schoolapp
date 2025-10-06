@@ -252,6 +252,44 @@ header.masthead input:invalid {
   outline: none !important;
 }
 
+.glmoon {
+  position: absolute;
+  top: 1000px; right: 40px;
+
+  width: 5%;
+  height: 10%;
+
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
+
+  background: #e4effaff;
+  color: #2b2a2aff;
+  border-radius: 20%;
+  border: 1px solid #393939;
+  opacity: 0.5;
+}
+
+
+.glmoon g {
+  z-index: 999;
+  font-size: 1.5rem;
+  margin: center; 
+  user-select: none;
+  justify-content: center;      /* 가로 중앙 */
+  align-items: center; 
+  text-align: center;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.glmoon:hover{
+    border: 1px #393939ff solid;
+    background-color: #e7e7e7ff;
+    transform: scale(1.08);
+    background-color:
+  }
 
 /* =========================================================
    3) 3열 아이콘 영역: 텍스트 플레이스홀더 주입
